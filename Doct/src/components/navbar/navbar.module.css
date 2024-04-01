@@ -1,0 +1,61 @@
+.left{
+    /* background-color: aqua; */
+    height: 90px;
+    width:330px;
+}
+.center{
+    display: flex;
+    position: relative;
+    /* background-color: rgb(217, 93, 110); */
+    height: 90px;
+    width: 800px;
+}
+.right{
+    display:block;
+    position: relative;
+    /* background-color: rgb(118, 86, 90); */
+}
+.logo{
+    margin-top: -48px;
+    /* background-color: brown; */
+    height:195px;
+    width:195px;
+    margin-left: 50px;
+    border-radius: 10px;
+    /* box-shadow: 3px 3px 10px black; */
+}
+.acceuil{
+    margin-top: 27px;
+    margin-left: 440px;
+    margin-right: 50px;
+    font-size: 16px;
+    color:black;
+   
+}
+.rmed{
+    margin-top: 27px;
+    margin-right: 10px;
+    font-size: 16px;
+    color:black;
+
+}
+.seconnecter{
+    height: 50px;
+    width: 160px;
+    /* background-color: rgb(149, 175, 232); */
+    left: 50px;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid ;
+}
+
+
+nav{
+    display: flex;
+    /* background-color: cadetblue; */
+    width: 1440px;
+    height: 90px;
+    /* border-bottom: 1px solid black; */
+    
+}

@@ -1,0 +1,37 @@
+
+h1 {
+    margin: 10px;
+    font-size: 40px;
+    color: rgb(1, 1, 59);
+}
+
+.search {
+    display: inline;
+    position: relative;
+    width: 500px;
+    height: 56px;
+    border-radius: 3px;
+    background-color: aliceblue;
+    z-index: 6;
+}
+.sb{
+    display: flex;
+    position: relative;
+    background-color:rgb(187, 218, 251);
+    border: 1px solid black;
+    margin-left: 10px;
+
+    z-index: 6;
+
+}
+.sbi{
+    background-color:transparent;
+    height: 35px;
+    width: 35px;
+
+    z-index: 6;
+}
+
+ul li {
+    font-size: 20px;
+} 
