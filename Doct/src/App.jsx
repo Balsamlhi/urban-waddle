@@ -17,7 +17,9 @@ function App() {
       <div className={styles.map}>
         <Map />
       </div>
-      {/* <Footer /> */}
+      <div className="App">
+      <Footer/>
+      </div>
       
     </>
   )
