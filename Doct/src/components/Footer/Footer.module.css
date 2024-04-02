@@ -1,140 +1,127 @@
-/* *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
-body{
-    font-family: 'Poppins', sans-serif;
-} */
-/* s */
-.container{
-    background-color: #ea4c89;
-    width: 500px;
-    height: 500px;
-}
-.loc{
-  height: 50%;
-  width: 5%;
-}
-.site-footer {
-  background-color: #26272b;
-  padding: 20px 0 0px;
-  font-size: 15px;
-  line-height: 20px; /*nespaci */
-  color: #9a9999;
-  border-radius: 12px; /*l contour */
-  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
-   /* Fixe le footer en bas de la page */
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  
-}
-.site-footer hr {
-  border-top-color: #bbb;
-  opacity: 0.5;
+/* Footer.module.css */
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.site-footer h6 {
-  color: #fff;
-  font-size: 16px;
-  text-transform: uppercase;
-  margin-top: 5px;
-  letter-spacing: 1px;
+/* Part */
+.part {
+  flex: 1;
 }
-.site-footer a {
-  color: #737373;
+
+/* Logo */
+.logo {
+  width: 150px;
+  height: auto;
 }
-.site-footer a:hover {
-  color: #fff;
-  text-decoration: none;
-} 
-.footer-links {
-  padding-left: 0;
+
+/* Text justification */
+.textJustify {
+  text-align: justify;
+}
+
+/* Footer links */
+.serviceClientLinks {
   list-style: none;
+  padding: 0;
 }
-.footer-links li {
-  display: block;
+
+.footerLinks li {
+  margin-bottom: 10px;
 }
-.footer-links a {
-  color: #9a9999 ;
+
+.footerLinks li a {
+  text-decoration: none; /* Supprime la décoration du lien */
+  color: #333; /* Couleur du texte du lien */
+  transition: color 0.3s; /* Animation de transition pour la couleur du texte */
 }
-.footer-links a:active,
-.footer-links a:focus,
-.footer-links a:hover {
-  color: #fff;
-  text-decoration: none;
-} 
-.site-footer .social-icons {
-  text-align: right;
+
+.footerLinks li a:hover {
+  color: #00acee; /* Couleur du texte du lien au survol */
 }
-.site-footer .social-icons a {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  margin-left: 6px;
-  margin-right: 0;
-  border-radius: 100%;
-  background-color: #33353d;
-}
-.copyright-text {
-  margin: 0;
-}
-@media (max-width: 991px) {
-  .site-footer [class^="col-"] {
-    margin-bottom: 30px;
-  }
-}
-@media (max-width: 767px) {
-  .site-footer {
-    padding-bottom: 0;
-  }
-  .site-footer .copyright-text,
-  .site-footer .social-icons {
-    text-align: center;
-  }
-}
-.social-icons {
-  padding-left: 0;
-  margin-bottom: 0;
+
+/* Social icons */
+.socialIcons {
   list-style: none;
+  padding: 0;
+  display: flex;
 }
-.social-icons li {
-  display: inline-block;
-  margin-bottom: 4px;
-} 
-.social-icons a {
-  background-color: #eceeef;
-  color: #818a91;
-  font-size: 16px;
-  display: inline-block;
-  line-height: 44px;
-  width: 44px;
-  height: 44px;
-  text-align: center;
-  margin-right: 8px;
-  border-radius: 100%;
-  /*prop de transition*/
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+
+.socialIcons li {
+  margin-right: 10px;
 }
-.social-icons a:active,
-.social-icons a:focus,
-.social-icons a:hover {
-  color: #fff;
-  background-color: #29aafe;
-} 
-.social-icons a.facebook:hover {
-  background-color: #3b5998;
+
+/* Icon colors */
+.facebook {
+  color: #3b5998; /* Facebook blue */
 }
-.social-icons a.twitter:hover {
-  background-color: #00aced;
+.facebook:hover{
+  color: #00acee;
 }
-.social-icons a.linkedin:hover {
-  background-color: #007bb6;
+
+.twitter {
+  color: #00acee; /* Twitter blue */
 }
-.social-icons a.dribbble:hover {
-  background-color: #ea4c89;
+
+.socialIcons{
+  height: 20%;
+  width: 20%;
 }
+
+
+.instagram:hover{
+  color: deeppink;
+}
+
+.linkedin {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+.socialIcons li a {
+  color: inherit; /* Couleur du lien héritée */
+  transition: color 0.3s; /* Animation de transition pour la couleur du texte */
+}
+
+ li a:hover {
+  color: #555; /* Couleur du texte du lien au survol */
+}
+
+/* Small horizontal rule */
+.small {
+  width: 50%;
+  margin: 20px auto;
+}
+
+/* Footer */
+.siteFooter {
+  background-color: #ababab;
+  padding: 50px 0;
+}
+
+/* Rows */
+.row1,
+.row2,
+.row3,
+.row4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Horizontal rule */
+hr {
+  border-top-color: #2d2c2c;
+  opacity: 0.5;
+}
+/* Footer.module.css */
+
+/* Icon colors */
+.facebook,
+.twitter,
+.instagram,
+.linkedin {
+  font-size: 24px; /* Ajuste la taille des icônes */
+}
+
