@@ -23,3 +23,10 @@
   z-index: 2;
   border-top: 1.5px solid black;
 }
+.Footer{
+  display: flex;
+  position: relative;
+  background-color: brown;
+  width: 1520px;
+  height: 400px;
+}

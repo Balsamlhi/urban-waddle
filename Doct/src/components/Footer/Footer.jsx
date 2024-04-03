@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../footer/Footer.module.css';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/Doct_logo.png';
 import {
   TiSocialFacebook,
   TiSocialLinkedin,
