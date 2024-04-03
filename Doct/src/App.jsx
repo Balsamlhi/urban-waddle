@@ -17,7 +17,7 @@ function App() {
       <div className={styles.map}>
         <Map />
       </div>
-      <div className="App">
+      <div className={styles.footer}>
       <Footer/>
       </div>
       

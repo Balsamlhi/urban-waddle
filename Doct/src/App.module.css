@@ -18,8 +18,14 @@
   position: relative;
   /* background-color: brown; */
   margin-top: -25px;
-  width: 1440px;
+  width: 1520px;
   height: 400px;
   z-index: 2;
   border-top: 1.5px solid black;
+}
+.footer{
+  display:flex;
+  position: relative;
+  width: 1520px;
+  background: rgb(15, 21, 47);
 }
