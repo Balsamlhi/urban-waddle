@@ -76,134 +76,32 @@ hr{
   height: 110px;
 }
 
-
-
-
-
-/* Container */
-/* .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-} */
-
-/* Part */
-/* .part {
-  flex: 1;
-} */
-
-/* Logo */
-/* .logo {
-  width: 150px;
-  height: auto;
-} */
-
-/* Text justification */
-/* .textJustify {
-  text-align: justify;
-} */
-
-/* Footer links */
-.serviceClientLinks {
-  list-style: none;
-  padding: 0;
-}
-
 .footerLinks li {
   margin-bottom: 10px;
 }
 
-.footerLinks li a {
-  text-decoration: none; 
-  color: #333; 
-  transition: color 0.3s; 
-}
+  .socialIcons a {
+    margin-right: 20px;
+  }
 
-.footerLinks li a:hover {
-  color: #00acee;
-}
-
-/* Social icons */
 .socialIcons {
-  list-style: none;
-  padding: 0;
+  margin-right: 20px;
   display: flex;
+  font-size: 30px;
 }
 
-.socialIcons li {
-  margin-right: 10px;
-}
-
-/* Icon colors */
-.facebook {
-  color: #3b5998; 
+.socialIcons {
+  color: #5b8bf4; 
 }
 .facebook:hover{
   color: #00acee;
 }
-
-.twitter {
+.twitter:hover {
   color: #00acee; 
 }
-
-.socialIcons{
-  height: 20%;
-  width: 20%;
-}
-
-
 .instagram:hover{
   color: deeppink;
 }
-
-.linkedin {
+.linkedin:hover {
   color: #0077b5; 
-}
-.socialIcons li a {
-  color: inherit; 
-  transition: color 0.3s; 
-}
-
- li a:hover {
-  color: #555; 
-}
-
-/* Small horizontal rule */
-/* .small {
-  width: 50%;
-  margin: 20px auto;
-} */
-
-/* Footer */
-<<<<<<< HEAD
-.siteFooter {
-  padding: 50px 0;
-}
-=======
-
->>>>>>> 023b25ea9d9fc8516d911c3f34adae49734424ee
-
-
-/* Rows */
-/* .row1,
-.row2,
-.row3,
-.row4 {
-  display: flex;
-  justify-content: space-between;
-} */
-
-/* Horizontal rule */
-/* hr {
-  border-top-color: #2d2c2c;
-  opacity: 0.5;
-} */
-/* Footer.module.css */
-
-/* Icon colors */
-.facebook,
-.twitter,
-.instagram,
-.linkedin {
-  font-size: 24px; 
 }

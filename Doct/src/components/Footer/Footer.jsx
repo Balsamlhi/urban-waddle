@@ -35,26 +35,21 @@ function Footer() {
         </p>
         </div>
         <div className={styles.b2}>
-        <ul className={styles.socialIcons}>
-             <li><a className={styles.facebook} href="#">
+        <div className={styles.socialIcons}>
+             <a className={styles.facebook} href="#">
               <TiSocialFacebook />
-             </a></li>
-            <li><a className={styles.twitter} href="#">
+             </a>
+            <a className={styles.twitter} href="#">
               <TiSocialTwitter />
-            </a></li>
-            <li><a className={styles.instagram} href="#">
-             </a></li>
-            <li><a className={styles.linkedin} href="#">
-         <TiSocialInstagram />
+            </a>
+            <a className={styles.instagram} href="#">
+            <TiSocialInstagram />
+             </a>
+            <a className={styles.linkedin} href="#">
                 <TiSocialLinkedin />
-             </a></li>
-        </ul>
-
+             </a>
+             </div>
         </div>
-      
-            
-            
-
       </div>
     </footer>
     // <footer className={styles.siteFooter}>
