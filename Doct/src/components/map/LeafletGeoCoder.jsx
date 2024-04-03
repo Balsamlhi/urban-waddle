@@ -1,6 +1,9 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
+import 'leaflet-control-geocoder/dist/Control.Geocoder.css';
+import 'leaflet-control-geocoder/dist/Control.Geocoder.js';
 import L from "leaflet"
 import { useMap } from 'react-leaflet';
+
 
 function LeafletGeoCoder() {
     const map = useMap(); 
@@ -14,7 +17,8 @@ function LeafletGeoCoder() {
               map.fitBounds(e.geocode.bbox)
             })
             .addTo(map);
-    },[]) // Include map in dependency array
+            console.log("test")
+    },[map]) // Include map in dependency array
 
   return null;
 }

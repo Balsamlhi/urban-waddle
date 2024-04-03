@@ -1,27 +1,107 @@
-/* Footer.module.css */
+.siteFooter {
+  display: inline-block;
+  position: relative;
+  width: 1520px;
+  height: 430px;
+}
+.top{
+  display: flex;
+  position: relative;
+  /* background-color: aqua; */
+  width: 1520px;
+  height: 300px;
+}
+.bottom{ display: flex;
+  position: relative;
+  /* background-color:chocolate; */
+  width: 1520px;
+  height: 130px;
+}
+.part1{
+  /* background-color: blue; */
+  width: 650px;
+  height: 100%;
+}
+.logo{
+  margin-left: -30px;
+  width: 195px;
+  height: 195px;
+}
+.textJustify{
+  margin-top: -30px;
+  margin-left: 10px;
+  color: rgb(220, 214, 207);
+}
+h4{
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  color:rgb(220, 214, 207); 
+  
+}
+.part2{
+  /* background-color: rgb(9, 255, 0); */
+  width: 435px;
+  height: 100%;
+}
+.links{
+  display: block;
+  margin-bottom: 30px;
+  margin-left: 160px;
+  color: beige;
+}
+.part3{
+  /* background-color: rgb(255, 0, 191); */
+  width: 435px;
+  height: 100%;
+}
+.mail{
+  color: beige;
+  margin-left: 70px;
+  font-size: 20px;
+
+}
+hr{
+  width: 1300px;
+  opacity: 0.5;
+}
+.copyrightText{
+  margin-left: 10px;
+  padding-top: 50px;
+  color:beige;
+}
+.b1{
+  /* background-color: aquamarine; */
+  width: 1000px;
+  height: 110px;
+}
+
+
+
+
 
 /* Container */
-.container {
+/* .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-}
+} */
 
 /* Part */
-.part {
+/* .part {
   flex: 1;
-}
+} */
 
 /* Logo */
-.logo {
+/* .logo {
   width: 150px;
   height: auto;
-}
+} */
 
 /* Text justification */
-.textJustify {
+/* .textJustify {
   text-align: justify;
-}
+} */
 
 /* Footer links */
 .serviceClientLinks {
@@ -34,13 +114,13 @@
 }
 
 .footerLinks li a {
-  text-decoration: none; /* Supprime la décoration du lien */
-  color: #333; /* Couleur du texte du lien */
-  transition: color 0.3s; /* Animation de transition pour la couleur du texte */
+  text-decoration: none; 
+  color: #333; 
+  transition: color 0.3s; 
 }
 
 .footerLinks li a:hover {
-  color: #00acee; /* Couleur du texte du lien au survol */
+  color: #00acee;
 }
 
 /* Social icons */
@@ -56,14 +136,14 @@
 
 /* Icon colors */
 .facebook {
-  color: #3b5998; /* Facebook blue */
+  color: #3b5998; 
 }
 .facebook:hover{
   color: #00acee;
 }
 
 .twitter {
-  color: #00acee; /* Twitter blue */
+  color: #00acee; 
 }
 
 .socialIcons{
@@ -77,44 +157,40 @@
 }
 
 .linkedin {
-  color: #0077b5; /* LinkedIn blue */
+  color: #0077b5; 
 }
-
 .socialIcons li a {
-  color: inherit; /* Couleur du lien héritée */
-  transition: color 0.3s; /* Animation de transition pour la couleur du texte */
+  color: inherit; 
+  transition: color 0.3s; 
 }
 
  li a:hover {
-  color: #555; /* Couleur du texte du lien au survol */
+  color: #555; 
 }
 
 /* Small horizontal rule */
-.small {
+/* .small {
   width: 50%;
   margin: 20px auto;
-}
+} */
 
 /* Footer */
-.siteFooter {
-  background-color: #ababab;
-  padding: 50px 0;
-}
+
 
 /* Rows */
-.row1,
+/* .row1,
 .row2,
 .row3,
 .row4 {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 /* Horizontal rule */
-hr {
+/* hr {
   border-top-color: #2d2c2c;
   opacity: 0.5;
-}
+} */
 /* Footer.module.css */
 
 /* Icon colors */
@@ -122,6 +198,5 @@ hr {
 .twitter,
 .instagram,
 .linkedin {
-  font-size: 24px; /* Ajuste la taille des icônes */
+  font-size: 24px; 
 }
-
