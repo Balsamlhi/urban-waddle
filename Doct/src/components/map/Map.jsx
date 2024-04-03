@@ -3,8 +3,8 @@ import styles from '../map/Map.module.css'
 import '../map/map.css'
 import {MapContainer ,TileLayer,Marker,Popup} from "react-leaflet"
 import '../map/Map.module.css';
-import 'leaflet-control-geocoder/dist/Control.Geocoder.css'
-import 'leaflet-control-geocoder/dist/Control.Geocoder.js'
+// import 'leaflet-control-geocoder/dist/Control.Geocoder.css'
+// import 'leaflet-control-geocoder/dist/Control.Geocoder.js'
 import LeafletGeoCoder from './LeafletGeoCoder';
 import LeafletRoutingMachine from './LeafletRoutingMachine';
 

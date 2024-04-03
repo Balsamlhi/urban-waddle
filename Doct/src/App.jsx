@@ -17,7 +17,7 @@ function App() {
       <div className={styles.map}>
         <Map />
       </div>
-      <div className={styles.Footer}>
+      <div className="App">
       <Footer/>
       </div>
       
