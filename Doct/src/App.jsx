@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/navbar";
 import Search_bar from "./components/search_bar/Search_bar";
 import Map from "./components/map/Map";
 import Footer from "./components/Footer/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
