@@ -1,21 +1,22 @@
 import styles from "./App.module.css";
-import Navbar from "./components/navbar/navbar";
-import Search_bar from "./components/search_bar/Search_bar";
+import Navbar from "./components/navbar2/nav";
+/*import Search_bar from "./components/search_bar/Search_bar";*/
 import Map from "./components/map/Map";
 import Footer from "./components/Footer/Footer";
-
+import Content from "./components/content/content";
+/*import Rate from "./components/rate/rate";*/
 
 function App() {
   return (
     <>
-      <div className={styles.navbar}>
+      <div className={styles.nav}>
       <Navbar />
-      </div>
-      <div className={styles.Search_bar}>
-      <Search_bar />
-      </div>
+      </div>                 
       <div className={styles.map}>
         <Map />
+      </div>
+      <div className={styles.Content}>
+        <Content />
       </div>
       <div className={styles.footer}>
       <Footer/>

@@ -2,7 +2,7 @@
   display: flex;
   position: relative;
   width: 100%;
-  height: 90px;
+  height: 200px;
 }
 .Search_bar{
   display: flex;
@@ -21,11 +21,12 @@
   width: 1520px;
   height: 400px;
   z-index: 2;
-  border-top: 1.5px solid black;
+  border-top: 1.5px solid rgb(241, 241, 241);
 }
 .footer{
   display:flex;
   position: relative;
   width: 1520px;
   background: rgb(15, 21, 47);
+  margin-top: 40px;
 }

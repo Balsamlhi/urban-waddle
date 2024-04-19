@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../navbar/navbar.module.css";
-import logo from "../../assets/Doct_logo.png"
+import logo from "../../assets/Doct_logo.png";
 
 function Navbar() {
   return (

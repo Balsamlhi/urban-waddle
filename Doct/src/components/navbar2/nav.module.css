@@ -1,0 +1,119 @@
+.part1{
+    display:flex;
+    width: 1520px;
+    height: 150px;
+    /*background-color: brown;*/
+}
+.logo {
+
+    margin-top: -48px;
+    /*background-color:chartreuse; */
+    height:150px;
+    width:150px;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    /* box-shadow: 3px 3px 10px black; */
+  }
+
+.part2{
+    display:flex;
+    width: 1520px;
+    height: 300px;
+    /*background-color:red;*/
+    margin-left: 80px;
+    margin-top: -25PX;
+}
+.acc{
+    /*background-color: blue;*/
+    position: relative;
+    display: flex;
+    height: 40px;
+    width: 100px;
+    margin-top: 100px;
+    color: #030210;
+}
+.help{
+    /*background-color: rgb(43, 141, 79);*/
+    position: relative;
+    display: flex;
+    height: 40px;
+    width: 100px;
+    margin-top: 100px;
+}
+.specialite{
+    position: relative;
+    display: flex;
+    /*background-color: rgb(203, 191, 191);*/
+    height: 40px;
+    width: 400px;
+    margin-top: 100px;
+
+}
+.choix{
+    position: relative;
+    display: inline;
+    height: 50px;
+    width: 300px;
+    /*background-color: brown;*/
+    margin-left: 20px;
+}
+.group {
+    /*background-color: cyan;*/
+    position: relative;
+    display: flex;
+    height: 40px;
+    width: 300px;
+    margin-top: 90px;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 300px;
+   }
+   .input {
+    width: 400%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+   }
+   .input::placeholder {
+    color: #9e9ea7;
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    border-color: rgba(106, 153, 238, 0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(45, 209, 108, 0.444);
+   }
+   
+   .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+   }
+.button{
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 250px;
+    margin-top: 80px;
+    margin-left: 100px;
+    align-items: center;
+   }
+.button:hover{
+    color:rgb(98, 98, 231);
+}
+.spec{
+    color: beige;
+    font-weight: 600;
+}
