@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './rate.module.css'; // Make sure the path is correct
 
-const Rate = ({ value, onChange }) => {
+const Rate = ({ value}) => {
   return (
     <div className={styles.rating}>
       {[1, 2, 3, 4, 5].map((val) => (
@@ -12,7 +12,7 @@ const Rate = ({ value, onChange }) => {
             name="star-radio"
             value={`star-${val}`}
             checked={value === val}
-            onChange={() => onChange(val)}
+            // onChange={() => onChange(val)}
           />
           <label htmlFor={`star-${val}`}>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

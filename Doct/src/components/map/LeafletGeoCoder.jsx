@@ -18,7 +18,7 @@ function LeafletGeoCoder() {
             })
             .addTo(map);
             console.log("test")
-    },[map]) // Include map in dependency array
+    },) // Include map in dependency array
 
   return null;
 }

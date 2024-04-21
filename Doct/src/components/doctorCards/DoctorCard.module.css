@@ -1,0 +1,25 @@
+.doctor_card{
+    display: inline-block;
+    position: relative;
+    height: 550px;
+    width: 340px;
+    margin-left: 150px;
+    margin-top: 150px;
+    border: 6.5px solid white;
+}
+.photo{
+    padding: 20px;
+    height: 350px;
+    width: 300px;
+}
+.name{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.description{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-left: 20px;
+}
