@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Dr. Michael Lee",
+    "photo": "./src/assets/doct3.jpg",
+    "description": "Dr. Michael lee specializes in pediatrics and has a gentle approach with children.",
+    "rate": 3
+  },
+
+    {
+      "name": "Dr. John Smith",
+      "photo": "./src/assets/doct1.webp",
+      "description": "Dr. John Smith is a highly experienced cardiologist with over 20 years of practice.",
+      "rate": 5
+    },
+    {
+      "name": "Dr. Emily Johnson",
+      "photo": "./src/assets/doct2.jpg",
+      "description": "Dr. Emily Johnson specializes in pediatrics and has a gentle approach with children.",
+      "rate": 4
+    }
+  
+  ]
+  
