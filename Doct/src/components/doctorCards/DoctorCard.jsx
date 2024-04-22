@@ -8,7 +8,7 @@ const DoctorCard = ({ doctor }) => {
         <img src={doctor.photo} alt={doctor.name} className={style.photo} />
         <h2 className={style.name}>{doctor.name}</h2>
         <p className={style.description}>{doctor.description}</p>
-        <p>Rate:  <Rate value={doctor.rate} /></p>
+        <p className={style.rate}><Rate value={doctor.rate} /></p>
       </div>
     );
   };

@@ -28,7 +28,8 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  background: linear-gradient(rgb(114, 174, 206), 20%, rgb(255, 255, 255));
+  width: 100%;
+  /* background: linear-gradient(rgb(41, 73, 111), 20%, rgb(107, 168, 233)); */
 }
 
 h1 {

@@ -1,25 +1,39 @@
 .doctor_card{
     display: inline-block;
     position: relative;
-    height: 550px;
+    height: 610px;
     width: 340px;
-    margin-left: 150px;
+    margin-left: 120px;
     margin-top: 150px;
-    border: 6.5px solid white;
+    border: 2.5px solid rgb(8, 9, 10);
+    border-radius: 15px;
+    background-color: rgb(49, 71, 156);
 }
 .photo{
-    padding: 20px;
-    height: 350px;
+    /* padding: 20px; */
+    margin-left: 17.5px;
+    margin-top: 15px;
+    border-radius: 20px;
+    height: 370px;
     width: 300px;
+    border: 2px solid black ;
 }
 .name{
     display: flex;
     position: relative;
     justify-content: center;
+    color:azure;
 }
 .description{
     display: flex;
     position: relative;
     justify-content: center;
     padding-left: 20px;
+    color:azure;
 }
+.rate{
+    /* background-color: brown; */
+    width: 500px;
+    margin-left: -240px;
+}
+

@@ -9,6 +9,7 @@ import DoctorCard from "./components/doctorCards/DoctorCard";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Navbaaaar from "./components/navbar2/nav";
 
 
 
@@ -39,7 +40,7 @@ function App() {
   return (
     <>
       <div className={styles.nav}>
-      <Navbar />
+      <Navbaaaar/>
       </div>                 
       <div className={styles.map}>
         <Map />
