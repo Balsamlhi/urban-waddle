@@ -11,9 +11,9 @@ const Navbaaaar = () => {
                 <div className={styles.acc}><a href="">Accueil</a></div>
                 <div className={styles.help}><a href="">Help</a></div>
             <div className={styles.specialite}>
-            <form method="POST"action="mailto:etudiant@yahoo.fr"> <span className={styles.spec}>Specialité</span>
+            <form method="POST"action=""> <span className={styles.spec}>Specialité</span>
                 <div  className={styles.choix}>
-                    <select size="1"name="ChoixNiveau">
+                    <select size="1"name="ChoixNiveau" className={styles.choix1}>
                         <option></option>
                         <option>Spécialiste</option>
                         <option >Dentiste</option>
