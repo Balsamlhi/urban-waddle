@@ -2,38 +2,10 @@
   display: flex;
   position: relative;
   width: 100%;
-  height: 200px;
+  margin-bottom: 129px;
 }
-.Search_bar{
+.login{
+  position: relative;
   display: flex;
-  position: relative;
-  /* background-color: blueviolet; */
-  margin-left: 370px;
-  margin-top: -20px;
-  height: 56px;
-  width: 580px;
-}
-.map{
-  display: flex;
-  position: relative;
-  /* background-color: brown; */
-
-  margin-top: 129px;
-  width: 1500px;
-  height: 400px;
-  z-index: 2;
-  border-top: 1.5px solid rgb(241, 241, 241);
-}
-.footer{
-  display:flex;
-  position: relative;
-  width: 1500px;
-  background: rgb(15, 21, 47);
-  margin-top: 40px;
-}
-.Content{
-  height: 800px;
-  width: 1500px;
-  background-color: rgb(221, 233, 242);
-
+  margin-top: 300px;
 }

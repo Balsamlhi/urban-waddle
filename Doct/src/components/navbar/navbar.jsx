@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../navbar/navbar.module.css";
 import logo from "../../assets/Doct_logo.png";
+import Sign_in_up from "../Sign_in_up/Sign_in_up";
 
 function Navbar() {
   return (
@@ -20,10 +21,12 @@ function Navbar() {
 
         </div>
         <div className={styles.right}>
-        <button className={styles.seconnecter}>Se connecter</button>
+        <button className={styles.seconnecter} to={'/Login'}>Se connecter</button>
         </div>
       </nav>
+      <Route path="/Login" element={<Sign_in_up />} />
     </>
+
   );
 }
 export default Navbar;

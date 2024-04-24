@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "../../assets/Doct_logo.png";
-import styles from '../navbar2/nav.module.css'
+import styles from '../navbar2/nav.module.css';
+import { Link } from 'react-router-dom';
 /*import Log from './log';*/
 
 const Navbaaaar = () => {
@@ -29,7 +30,11 @@ const Navbaaaar = () => {
                 </div>
             </div>
             <div className={styles.button}>
-                <button > Se Connecter</button>
+            <Link to={'/login'}>
+                Se Connecter
+            </Link>
+                
+            
             </div>
           
         </div>

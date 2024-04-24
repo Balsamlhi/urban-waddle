@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Sign_in_up.module.css';
 
 const Login = () => {
   return (
@@ -38,6 +39,18 @@ const Login = () => {
         </div>
       </div>
 
+
+      
+      <br/>
+      <div className="d-grid">
+        <button to={'/login'} className="btn btn-primary">
+          sign
+        </button>
+      </div>
+      
+
+
+      <br />
       <div className="d-grid">
         <button type="submit" className="btn btn-primary">
           Submit

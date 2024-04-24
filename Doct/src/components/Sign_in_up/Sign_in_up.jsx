@@ -21,7 +21,7 @@ function Sign_in_up() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to={'/sign-up'}>
+                  <Link className="nav-link" to={'/Login'}>
                     Sign up
                   </Link>
                 </li>
@@ -45,3 +45,4 @@ function Sign_in_up() {
 }
 
 export default Sign_in_up;
+

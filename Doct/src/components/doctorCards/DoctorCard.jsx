@@ -12,4 +12,4 @@ const DoctorCard = ({ doctor }) => {
       </div>
     );
   };
-export default DoctorCard
+export default DoctorCard;
