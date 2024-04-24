@@ -16,14 +16,14 @@ function Footer() {
           <p className={styles.textJustify}>PRENEZ VOS RENDEZ-VOUS MÉDICAUX EN LIGNE FACILEMENT, RAPIDEMENT ET GRATUITEMENT</p>
         </div>
         <div className={styles.part2}>
-          <h4>Service client</h4>
+          <h4 className={styles.tt}>Service client</h4>
           <a href="#" className={styles.links}>accueil</a>
           <a href="#" className={styles.links}>Spécialité</a>
           <a href="#" className={styles.links}>Qui somme nous </a>
        
         </div>
         <div className={styles.part3}>
-            <h4>CONTACTEZ NOUS</h4>
+            <h4 className={styles.tt}>CONTACTEZ NOUS</h4>
             <a href="#" className={styles.mail}>DoctServiceDeSante@gmail.com</a>
         </div>
       </div>

@@ -32,8 +32,8 @@ function Sign_in_up() {
 
         <div className="auth-wrapper">
           <div className="auth-inner">
-            <Routes>
-              <Route exact path="/" element={<Login />} />
+          <Routes>
+              {/* <Route exact path="/" element={<Login />} /> */}
               <Route path="/sign-in" element={<Login />} />
               <Route path="/sign-up" element={<SignUp />} />
             </Routes>

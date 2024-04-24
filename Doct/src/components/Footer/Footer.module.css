@@ -1,8 +1,10 @@
 .siteFooter {
   display: inline-block;
   position: relative;
+
   width: 1520px;
   height: 430px;
+  
 }
 .top{
   display: flex;
@@ -21,6 +23,7 @@
   /* background-color: blue; */
   width: 650px;
   height: 100%;
+  
 }
 .logo{
   margin-left: -30px;
@@ -43,6 +46,7 @@ h4{
   /* background-color: rgb(9, 255, 0); */
   width: 435px;
   height: 100%;
+
 }
 .links{
   display: block;
@@ -55,6 +59,7 @@ h4{
   /* background-color: rgb(255, 0, 191); */
   width: 435px;
   height: 100%;
+
 }
 .mail{
   color: beige;
@@ -106,4 +111,8 @@ hr{
 }
 .linkedin:hover {
   color: #0077b5; 
+}
+.tt{
+  padding-top: 70px;
+  color: rgb(123, 157, 179);
 }

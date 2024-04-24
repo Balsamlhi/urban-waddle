@@ -1,7 +1,7 @@
 import styles from "./App.module.css";
 import Navbar from "./components/navbar2/nav";
 import React, { useState, useEffect } from 'react';
-/*import Search_bar from "./components/search_bar/Search_bar";*/
+
 import Map from "./components/map/Map";
 import Footer from "./components/Footer/Footer";
 import Content from "./components/content/content";
@@ -10,6 +10,10 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Navbaaaar from "./components/navbar2/nav";
+import LeafletGeoCoder from "./components/map/LeafletGeoCoder";
+import LeafletRoutingMachine from "./components/map/LeafletRoutingMachine";
+
+// import Sign_in_up from "./components/Sign_in_up/Sign_in_up";
 
 
 
@@ -18,7 +22,7 @@ function App() {
 
   useEffect(() => {
     // Charger les données des médecins depuis le fichier JSON
-    fetch('http://localhost:5174/src/doctors.json')
+    fetch('http://localhost:5173/src/doctors.json')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -44,6 +48,8 @@ function App() {
       </div>                 
       <div className={styles.map}>
         <Map />
+        {/* <LeafletRoutingMachine />
+        <LeafletGeoCoder /> */}
       </div>
       <div className={styles.Content}>
       {/* <Slider {...settings}> */}
@@ -57,7 +63,7 @@ function App() {
       <Footer/>
       </div>
       {/* <Log/> */}
-      
+      {/* <Sign_in_up /> */}
     </>
   )
 }
