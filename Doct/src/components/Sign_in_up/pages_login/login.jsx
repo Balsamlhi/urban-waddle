@@ -43,8 +43,8 @@ const Login = () => {
       
       <br/>
       <div className="d-grid">
-        <button to={'/login'} className="btn btn-primary">
-          sign
+        <button to={'/sign'} className="btn btn-primary">
+          SignUp
         </button>
       </div>
       
