@@ -1,32 +1,41 @@
 import React from 'react';
-import '../Sign_in_up.module.css';
+import { Link } from 'react-router-dom';
+import styles from './login.module.css';
+import inscri from '../../../assets/inscription.png'
 
 const Login = () => {
   return (
-    <form>
+    <>
+    <div>
+      <img className={styles.inscri} src={inscri} />
+    </div>
+    <form className={styles.form}>
+      
       <h3>Sign In</h3>
 
-      <div className="mb-3">
+      <div className={styles.mb}>
         <label htmlFor="email">Email address</label>
         <input
           type="email"
-          className="form-control"
+          className={styles.control}
           id="email"
           placeholder="Enter email"
+          required
         />
       </div>
 
-      <div className="mb-3">
+      <div className={styles.mb}>
         <label htmlFor="password">Password</label>
         <input
           type="password"
-          className="form-control"
+          className={styles.control}
           id="password"
           placeholder="Enter password"
+          required
         />
       </div>
 
-      <div className="mb-3">
+      <div className={styles.mb}>
         <div className="custom-control custom-checkbox">
           <input
             type="checkbox"
@@ -43,11 +52,12 @@ const Login = () => {
       
       <br/>
       <div className="d-grid">
-        <button to={'/sign'} className="btn btn-primary">
+        <Link to={'/sign'}>
+        <button  className="btn btn-primary">
           SignUp
         </button>
+      </Link>
       </div>
-      
 
 
       <br />
@@ -56,10 +66,12 @@ const Login = () => {
           Submit
         </button>
       </div>
-      <p className="forgot-password text-right">
+      <p className={styles.forgot}>
         Forgot <a href="#">password?</a>
       </p>
+      
     </form>
+    </>
   );
 };
 

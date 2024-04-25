@@ -1,0 +1,51 @@
+body{
+    background-color:rgb(208, 211, 213);
+}
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(46, 64, 139);
+    color:beige;
+    margin-left: 150px;
+    border-radius: 20px;
+    margin-top: -450px;
+    
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 3.2);
+}
+h3{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+.mb{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.control{
+    margin-left: 10px;
+    border-radius: 5px;
+    border-color: #a6b8cf;
+  box-shadow: none;
+  height: 25px;
+}
+button{
+    margin-left: 100px;
+}
+.forgot{
+    text-align: center;
+}
+.inscri{
+    position: relative;
+    display: flex;
+    height: 500px;
+    width: 500px;
+    margin-left: 850px;
+    margin-top: 200px;
+}
+.mb2{
+    color: rgb(236, 20, 20);
+    margin-left: 120px;
+}

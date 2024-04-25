@@ -7,10 +7,14 @@
 .login{
   position: relative;
   display: flex;
+  text-align: center;
   margin-top: 300px;
+  background-color: brown;
 }
 .sign{
   position: relative;
   display: flex;
   margin-top: 300px;
+  
+  background-color: brown;
 }

@@ -68,6 +68,7 @@
 .choix1{
     height: 30px;
     width: 180px;
+    border-radius: 6px;
 }
 .group {
     /*background-color: cyan;*/
@@ -119,7 +120,6 @@
     height: 50px;
     width: 250px;
     margin-top: 85px;
-    margin-left: 100px;
     align-items: center;
    }
 .button:hover{
