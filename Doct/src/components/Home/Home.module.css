@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+.Search_bar{
+  display: flex;
+  position: relative;
+  /* background-color: blueviolet; */
+  margin-left: 370px;
+  margin-top: -20px;
+  height: 56px;
+  width: 580px;
+}
+.map{
+  display: flex;
+  position: relative;
+  /* background-color: brown; */
+  width: 1500px;
+  height: 400px;
+  z-index: 2;
+  border-top: 1.5px solid rgb(241, 241, 241);
+}
+.footer{
+  display:flex;
+  position: relative;
+  width: 1500px;
+  background: rgb(15, 21, 47);
+}
+.Content{
+  height: 800px;
+  width: 1500px;
+  background-color: rgb(221, 233, 242);
+
+}
+.Login{
+  position: relative;
+  justify-content: center;
+  margin-top: 200px;
+}

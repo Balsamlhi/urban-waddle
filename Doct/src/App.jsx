@@ -1,27 +1,29 @@
-import styles from "./App.module.css";
-import Navbar from "./components/navbar/navbar";
-import Search_bar from "./components/search_bar/Search_bar";
-import Map from "./components/map/Map";
-import Footer from "./components/Footer/Footer";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import styles from "../src/App.module.css";
+import Navbaaaar from './components/navbar2/nav';
+import Home from './components/Home/Home';
+import Login from './components/Sign_in_up/pages_login/login';
+import SignUp from './components/Sign_in_up/pages_login/sign';
 
 
 function App() {
   return (
-    <>
-      <div className={styles.navbar}>
-      <Navbar />
-      </div>
-      <div className={styles.Search_bar}>
-      <Search_bar />
-      </div>
-      <div className={styles.map}>
-        <Map />
-      </div>
-      <div className={styles.footer}>
-      <Footer/>
-      </div>
-      
-    </>
-  )
+   <>
+   <Router>
+      <>
+        <div className={styles.navbar}>
+          <Navbaaaar/>
+        </div>                 
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" className={styles.login} element={<Login /> } />
+          <Route path="/sign" className={styles.sign} element={<SignUp />} />
+        </Routes>
+      </>
+    </Router>
+   </>
+  );
 }
-export default App
+
+export default App;

@@ -3,8 +3,8 @@ import styles from '../map/Map.module.css'
 import '../map/map.css'
 import {MapContainer ,TileLayer,Marker,Popup} from "react-leaflet"
 import '../map/Map.module.css';
-// import 'leaflet-control-geocoder/dist/Control.Geocoder.css'
-// import 'leaflet-control-geocoder/dist/Control.Geocoder.js'
+import 'leaflet-control-geocoder/dist/Control.Geocoder.css'
+import 'leaflet-control-geocoder/dist/Control.Geocoder.js'
 import LeafletGeoCoder from './LeafletGeoCoder';
 import LeafletRoutingMachine from './LeafletRoutingMachine';
 
@@ -19,8 +19,8 @@ function Map() {
       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
     />
-  <LeafletGeoCoder />
-  {/* <LeafletRoutingMachine /> */}
+   <LeafletGeoCoder />
+  <LeafletRoutingMachine /> 
   </MapContainer>
     {/* <img className={styles.map} src={map} alt="" /> */}
 

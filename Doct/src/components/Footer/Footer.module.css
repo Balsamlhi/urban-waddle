@@ -34,9 +34,9 @@
 }
 h4{
   display: flex;
+  position: relative;
   font-size: 30px;
   justify-content: center;
-  color:rgb(220, 214, 207); 
   
 }
 .part2{
@@ -49,6 +49,7 @@ h4{
   margin-bottom: 30px;
   margin-left: 160px;
   color: beige;
+  margin-top: 40px;
 }
 .part3{
   /* background-color: rgb(255, 0, 191); */
@@ -59,7 +60,6 @@ h4{
   color: beige;
   margin-left: 70px;
   font-size: 20px;
-
 }
 hr{
   width: 1300px;
@@ -88,6 +88,8 @@ hr{
   margin-right: 20px;
   display: flex;
   font-size: 30px;
+  margin-top: 30px;
+  margin-left: 100px;
 }
 
 .socialIcons {
