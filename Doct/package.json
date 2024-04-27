@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "start": "start chrome http://localhost:5175"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/styled": "^11.11.0",

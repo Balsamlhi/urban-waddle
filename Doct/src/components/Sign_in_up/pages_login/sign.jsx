@@ -13,7 +13,7 @@ const SignUp = () => {
     <form className={styles.form}>
       <h3>Sign Up</h3>
       
-      <Link  >
+      <Link to={'/inscrimed'} >
       <span className={styles.mb2}>
       Êtes-vous un médecin ?
       </span>
