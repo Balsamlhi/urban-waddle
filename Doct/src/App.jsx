@@ -21,7 +21,6 @@ function App() {
           <Route path="/login" className={styles.login} element={<Login /> } />
           <Route path="/sign" className={styles.sign} element={<SignUp />} />
           <Route path="/rdv/:id" className={styles.rdv} element={<Rdv />} />
-
         </Routes>
       </>
     </Router>

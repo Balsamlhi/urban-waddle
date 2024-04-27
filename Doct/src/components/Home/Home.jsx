@@ -4,6 +4,7 @@ import Map from "../map/Map";
 import DoctorCard from "../doctorCards/DoctorCard";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
+import doctors from '../../doctors.json';
 
 function Home() {
   const [doctors, setDoctors] = useState([]);
