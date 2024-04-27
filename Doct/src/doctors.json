@@ -1,20 +1,29 @@
 [
   {
+    "id":1,
     "name": "Dr. Michael Lee",
     "photo": "./src/assets/doct3.jpg",
     "description": "Dr. Michael lee specializes in pediatrics and has a gentle approach with children.",
+    "specialty": "Cardiologist",
+    "address": "Sfax Immeuble VINCI, Av. NASRIA; Sfax eljadida",
     "rate": 3
   },
 
     {
+      "id":2,
       "name": "Dr. John Smith",
       "photo": "./src/assets/doct1.webp",
       "description": "Dr. John Smith is a highly experienced cardiologist with over 20 years of practice.",
+      "specialty": "Cardiologist",
+      "address": "Sfax Immeuble VINCI, Av. NASRIA; Sfax eljadida",
       "rate": 5
     },
     {
+      "id":3,
       "name": "Dr. Emily Johnson",
       "photo": "./src/assets/doct2.jpg",
+      "specialty": "Cardiologist",
+      "address": "Sfax Immeuble VINCI, Av. NASRIA; Sfax eljadida",
       "description": "Dr. Emily Johnson specializes in pediatrics and has a gentle approach with children.",
       "rate": 4
     }
