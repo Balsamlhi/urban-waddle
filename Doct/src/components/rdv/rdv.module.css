@@ -2,9 +2,9 @@
   display: flex;
   justify-content: center; 
   align-items: center;
-  margin-top: 20px;
-  width: 800px;
-  margin-left: 300px;
+  margin-top: 180px;
+  width: 900px;
+  margin-left: 50px;
   }
   
   .doctor {
@@ -12,6 +12,7 @@
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
   }
   
   .doctorInfo {
@@ -21,11 +22,13 @@
   .doctorImage {
     flex: 0 0 150px;
     margin-top: 20px;
+    height: 100px;
   }
   
   .image {
-    width: 100%;
-    height: auto;
+    width: 140px;
+    height: 170px;
+    padding-left: 20px;
   }
   
   .details {
@@ -69,6 +72,7 @@
   .description {
     background-color: #f9f9f9;
     padding: 20px;
+    margin-top: 20px;
   }
   
   .descriptionText {
@@ -76,4 +80,19 @@
     color: #444;
     margin: 0;
   }
-  
+  .map{
+  display: flex;
+  position: relative;
+  background-color: #3e8e41;
+  width: 400px;
+  margin-left: 1000px;
+  margin-top: -280px;
+  z-index: 0;
+  }
+  .cal{
+    height: 300px;
+    margin-top: 25px;
+    width: 900px;
+    margin-left: 200px;
+    border: 1px solid black;
+}

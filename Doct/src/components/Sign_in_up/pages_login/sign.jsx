@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './sign.module.css';
 import inscri from '../../../assets/inscription.png';
 
+
 const SignUp = () => {
   return (
     <>
@@ -13,7 +14,7 @@ const SignUp = () => {
     <form className={styles.form}>
       <h3>Sign Up</h3>
       
-      <Link  >
+      <Link to={'/inscrimed'} >
       <span className={styles.mb2}>
       Êtes-vous un médecin ?
       </span>

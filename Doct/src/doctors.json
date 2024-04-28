@@ -1,23 +1,89 @@
 [
   {
+    "id":1,
     "name": "Dr. Michael Lee",
-    "photo": "./src/assets/doct3.jpg",
+    "photo": "../src/assets/doct3.jpg",
     "description": "Dr. Michael lee specializes in pediatrics and has a gentle approach with children.",
-    "rate": 3
+    "specialty": "Cardiologist",
+    "address": "Sfax Immeuble VINCI, Av. NASRIA; Sfax eljadida",
+    "rate": 3,
+    "availableTimes": [
+      {"time": "09:00", "isAvailable": false},
+      {"time": "09:30", "isAvailable": true},
+      {"time": "10:00", "isAvailable": true},
+      {"time": "10:30", "isAvailable": true},
+      {"time": "11:00", "isAvailable": true},
+      {"time": "11:30", "isAvailable": true},
+      {"time": "12:00", "isAvailable": true},
+      {"time": "12:30", "isAvailable": true},
+      {"time": "13:00", "isAvailable": true},
+      {"time": "13:30", "isAvailable": true},
+      {"time": "14:00", "isAvailable": true},
+      {"time": "14:30", "isAvailable": true},
+      {"time": "15:00", "isAvailable": true},
+      {"time": "15:30", "isAvailable": true},
+      {"time": "16:00", "isAvailable": true},
+      {"time": "16:30", "isAvailable": true},
+      {"time": "17:00", "isAvailable": true},
+      {"time": "17:30", "isAvailable": true}
+    ]
   },
 
     {
+      "id":2,
       "name": "Dr. John Smith",
-      "photo": "./src/assets/doct1.webp",
+      "photo": "../src/assets/doct1.webp",
       "description": "Dr. John Smith is a highly experienced cardiologist with over 20 years of practice.",
-      "rate": 5
+      "specialty": "Cardiologist",
+      "address": "Sfax Immeuble VINCI, Av. NASRIA; Sfax eljadida",
+      "rate": 5,"availableTimes": [
+        {"time": "09:00", "isAvailable": false},
+        {"time": "09:30", "isAvailable": true},
+        {"time": "10:00", "isAvailable": true},
+        {"time": "10:30", "isAvailable": true},
+        {"time": "11:00", "isAvailable": true},
+        {"time": "11:30", "isAvailable": true},
+        {"time": "12:00", "isAvailable": true},
+        {"time": "12:30", "isAvailable": true},
+        {"time": "13:00", "isAvailable": true},
+        {"time": "13:30", "isAvailable": true},
+        {"time": "14:00", "isAvailable": true},
+        {"time": "14:30", "isAvailable": true},
+        {"time": "15:00", "isAvailable": true},
+        {"time": "15:30", "isAvailable": true},
+        {"time": "16:00", "isAvailable": true},
+        {"time": "16:30", "isAvailable": true},
+        {"time": "17:00", "isAvailable": true},
+        {"time": "17:30", "isAvailable": true}
+      ]
     },
     {
+      "id":3,
       "name": "Dr. Emily Johnson",
-      "photo": "./src/assets/doct2.jpg",
+      "photo": "../src/assets/doct2.jpg",
+      "specialty": "Cardiologist",
+      "address": "Sfax Immeuble VINCI, Av. NASRIA; Sfax eljadida",
       "description": "Dr. Emily Johnson specializes in pediatrics and has a gentle approach with children.",
-      "rate": 4
+      "rate": 4,"availableTimes": [
+        {"time": "09:00", "isAvailable": false},
+        {"time": "09:30", "isAvailable": true},
+        {"time": "10:00", "isAvailable": true},
+        {"time": "10:30", "isAvailable": true},
+        {"time": "11:00", "isAvailable": true},
+        {"time": "11:30", "isAvailable": true},
+        {"time": "12:00", "isAvailable": true},
+        {"time": "12:30", "isAvailable": true},
+        {"time": "13:00", "isAvailable": true},
+        {"time": "13:30", "isAvailable": true},
+        {"time": "14:00", "isAvailable": true},
+        {"time": "14:30", "isAvailable": true},
+        {"time": "15:00", "isAvailable": true},
+        {"time": "15:30", "isAvailable": true},
+        {"time": "16:00", "isAvailable": true},
+        {"time": "16:30", "isAvailable": true},
+        {"time": "17:00", "isAvailable": true},
+        {"time": "17:30", "isAvailable": true}
+      ]
     }
   
   ]
-  

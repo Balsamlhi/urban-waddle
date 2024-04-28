@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Dupont",
+    "availableTimes": [
+      { "time": "09:00", "isAvailable": true },
+      { "time": "09:30", "isAvailable": true },
+      { "time": "10:00", "isAvailable": false },
+      { "time": "10:30", "isAvailable": true },
+      { "time": "11:00", "isAvailable": true },
+      { "time": "11:30", "isAvailable": false },
+      { "time": "12:00", "isAvailable": true },
+      { "time": "12:30", "isAvailable": true },
+      { "time": "13:00", "isAvailable": true },
+      { "time": "13:30", "isAvailable": true },
+      { "time": "14:00", "isAvailable": true },
+      { "time": "14:30", "isAvailable": true },
+      { "time": "15:00", "isAvailable": true },
+      { "time": "15:30", "isAvailable": false },
+      { "time": "16:00", "isAvailable": true },
+      { "time": "16:30", "isAvailable": true },
+      { "time": "17:00", "isAvailable": true },
+      { "time": "17:30", "isAvailable": true }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Dr. Durand",
+    "availableTimes": [
+      { "time": "09:00", "isAvailable": true },
+      { "time": "09:30", "isAvailable": true },
+      { "time": "10:00", "isAvailable": true },
+      { "time": "10:30", "isAvailable": true },
+      { "time": "11:00", "isAvailable": true },
+      { "time": "11:30", "isAvailable": true },
+      { "time": "12:00", "isAvailable": false },
+      { "time": "12:30", "isAvailable": true },
+      { "time": "13:00", "isAvailable": true },
+      { "time": "13:30", "isAvailable": true },
+      { "time": "14:00", "isAvailable": true },
+      { "time": "14:30", "isAvailable": true },
+      { "time": "15:00", "isAvailable": true },
+      { "time": "15:30", "isAvailable": true },
+      { "time": "16:00", "isAvailable": true },
+      { "time": "16:30", "isAvailable": false },
+      { "time": "17:00", "isAvailable": true },
+      { "time": "17:30", "isAvailable": true }
+    ]
+  }
+]
