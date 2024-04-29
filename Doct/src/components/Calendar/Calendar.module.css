@@ -5,6 +5,17 @@
   width: 900px;
   border-color: black;
 }
+.header {
+  display: flex; /* Utiliser flexbox */
+  align-items: center; /* Aligner les éléments verticalement */
+  justify-content: space-between; /* Répartir les éléments horizontalement */
+  width: 900px; /* Même largeur que le conteneur du calendrier */
+  border-color: grey;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: -60px;
+}
+
 
 /* Individual day container */
 .day {

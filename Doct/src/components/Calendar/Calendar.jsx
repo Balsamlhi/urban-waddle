@@ -5,6 +5,7 @@ import styles from './Calendar.module.css';
 const Calendar = ({ doctorId }) => {
   const doctor = doctors.find((doctor) => doctor.id === doctorId);
   const [selectedTimeSlot, setSelectedTimeSlot] = useState(null);
+  const [selectedDate, setSelectedDate] = useState(new Date());
   const [showModal, setShowModal] = useState(false);
 
   if (!doctor) {
@@ -12,25 +13,47 @@ const Calendar = ({ doctorId }) => {
   }
 
   const handleAppointmentSelect = (time, isAvailable) => {
-    // Logique de sélection de rendez-vous ici
     console.log(`Rendez-vous sélectionné à ${time}`);
     if (isAvailable) {
       setSelectedTimeSlot(time);
-      setShowModal(true); // Afficher la boîte modale lorsque le créneau horaire est sélectionné
+      setShowModal(true);
     }
   };
 
   const handleCloseModal = () => {
-    setShowModal(false); // Fermer la boîte modale
+    setShowModal(false);
   };
 
   const handleReturnToCalendar = () => {
-    setSelectedTimeSlot(null); // Réinitialiser le créneau horaire sélectionné
-    setShowModal(false); // Fermer la boîte modale
+    setSelectedTimeSlot(null);
+    setShowModal(false);
+  };
+
+  const handleNextDay = () => {
+    const nextDay = new Date(selectedDate);
+    nextDay.setDate(selectedDate.getDate() + 1);
+    setSelectedDate(nextDay);
+  };
+
+  const handlePreviousDay = () => {
+    const previousDay = new Date(selectedDate);
+    previousDay.setDate(selectedDate.getDate() - 1);
+    if (previousDay >= new Date()) {
+      setSelectedDate(previousDay);
+    }
+  };
+
+  const formatDate = (date) => {
+    return date.toLocaleDateString('fr-FR', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
   };
 
   return (
     <div className={styles.calendar}>
+      <div className={styles.header}>
+        <button onClick={handlePreviousDay}>&lt;</button>
+        <div>{formatDate(selectedDate)}</div>
+        <button onClick={handleNextDay}>&gt;</button>
+      </div>
       {doctor.availableTimes.map((appointment) => (
         <div
           key={appointment.time}

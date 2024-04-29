@@ -26,7 +26,7 @@ function Rdv() {
             <h2 className={styles.name}>{doctor.name}</h2>
             <p className={styles.specialty}>{doctor.specialty}</p>
             <p className={styles.address}>{doctor.address}</p>
-            <a href="/appointment" className={styles.appointmentLink}>Prendre un rendez-vous</a>
+            <a href="#appointment" className={styles.appointmentLink}>Prendre un rendez-vous</a>
           </div>
         </div>
         <div className={styles.description}>
@@ -38,6 +38,7 @@ function Rdv() {
       <Map />
     </div>
     <div className={styles.cal}>
+    <a name="appointment"></a>
       {/* Intégration du composant Calendar avec l'ID du médecin */}
       <Calendar doctorId={doctor.id} />
     </div>

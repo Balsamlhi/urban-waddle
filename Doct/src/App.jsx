@@ -6,8 +6,7 @@ import Home from './components/Home/Home';
 import Login from './components/Sign_in_up/pages_login/login';
 import SignUp from './components/Sign_in_up/pages_login/sign';
 import Rdv from './components/rdv/rdv';
-import InscriptionForm from '../src/components/InscriptionForm/InscriptionForm'
-
+import InscriptionForm from '../src/components/InscriptionForm/InscriptionForm';
 
 function App() {
   return (
