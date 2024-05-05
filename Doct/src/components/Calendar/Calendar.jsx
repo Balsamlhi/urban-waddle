@@ -11,7 +11,6 @@ const Calendar = ({ doctorId }) => {
   if (!doctor) {
     return <div>Aucun médecin trouvé avec l'ID {doctorId}</div>;
   }
-
   const handleAppointmentSelect = (time, isAvailable) => {
     console.log(`Rendez-vous sélectionné à ${time}`);
     if (isAvailable) {

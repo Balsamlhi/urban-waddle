@@ -3,14 +3,18 @@
   display: flex;
   flex-wrap: wrap;
   width: 900px;
-  border-color: black;
+  height: 380px; /* Ajout de la hauteur spécifique */
+  background-color: rgb(186, 186, 186);
+  border: 1px solid rgb(121, 120, 120);
+  border-radius: 5px;
 }
+
 .header {
   display: flex; /* Utiliser flexbox */
   align-items: center; /* Aligner les éléments verticalement */
   justify-content: space-between; /* Répartir les éléments horizontalement */
   width: 900px; /* Même largeur que le conteneur du calendrier */
-  border-color: grey;
+  
   margin-bottom: 20px;
   margin-top: 20px;
   margin-left: -60px;
@@ -28,11 +32,15 @@
 /* Styles for available time slots */
 .available {
   background-color: #4CAF50;
+  border-radius: 10px;
+  height: 90px;
 }
 
 /* Styles for unavailable time slots */
 .unavailable {
-  background-color: #f6a2a2;
+  background-color: #f36262;
+  border-radius: 20px;
+  height: 90px;
 }
 
 /* Modal container */
@@ -70,7 +78,7 @@
 
 /* Selected time slot container */
 .selectedTimeSlot {
-  border: 1px solid #333;
+  border: 1px solid #999494;
   padding: 10px;
   margin-top: 20px;
 }

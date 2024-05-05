@@ -4,23 +4,11 @@ import Map from "../map/Map";
 import DoctorCard from "../doctorCards/DoctorCard";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
-import doctors from '../../doctors.json';
+import doctorsData from '../../doctors.json'; // Import the doctors data from the JSON file
 
 function Home() {
-  const [doctors, setDoctors] = useState([]);
-
-  useEffect(() => {
-    // Charger les données des médecins depuis le fichier JSON
-    fetch('http://localhost:5173/src/doctors.json')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return response.json();
-      })
-      .then(data => setDoctors(data))
-      .catch(error => console.error('Erreur lors du chargement des données des médecins:', error));
-  }, []);
+  // Use the doctors data imported from the JSON file
+  const [doctors, setDoctors] = useState(doctorsData);
 
   return (
     <>
@@ -29,7 +17,7 @@ function Home() {
       </div>
       <div className={styles.Content}>
         {doctors.map((doctor, index) => (
-          <Link key={index} to={`/rdv/${doctor.id}`}> {/* Inclure l'ID du médecin dans l'URL */}
+          <Link key={index} to={`/rdv/${doctor.id}`}>
             <DoctorCard doctor={doctor} />
           </Link>
         ))}

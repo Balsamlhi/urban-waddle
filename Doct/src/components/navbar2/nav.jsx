@@ -61,12 +61,8 @@ const Navbaaaar = () => {
             <Link to={'/login'}>
                 <button>Se Connecter</button>
             </Link>
-                
-            
             </div>
-          
         </div>
-            
     </div>
     );
 }

@@ -8,7 +8,7 @@ const Rate = ({ value }) => {
   return (
     <div className={styles.rating}>
       {[1, 2, 3, 4, 5].map((index) => (
-        <React.Fragment key={index}>
+        <span key={index}>
           <input
             type="radio"
             id={`star-${index}`}
@@ -24,7 +24,7 @@ const Rate = ({ value }) => {
               ></path>
             </svg>
           </label>
-        </React.Fragment>
+        </span>
       ))}
     </div>
   );
