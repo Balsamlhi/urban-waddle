@@ -1,0 +1,28 @@
+.home {
+    flex: 1;
+    width: 1150px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    margin-left: 290px;
+    margin-top: -700px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #34495e;
+  }
+  
+  .stats-cards {
+    display: flex;
+    margin-left: 70px;
+    gap: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .lists {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  

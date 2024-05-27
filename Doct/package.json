@@ -12,6 +12,7 @@
   "dependencies": {
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.15.14",
+    "antd": "^5.17.0",
     "axios": "^1.6.8",
     "bootstrap": "^5.3.3",
     "leaflet": "^1.9.4",

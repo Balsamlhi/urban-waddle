@@ -4,6 +4,7 @@ import doctors from '../../doctors.json';
 import styles from './rdv.module.css';
 import Map from '../map/Map';
 import Calendar from '../Calendar/Calendar'; // Importer le composant Calendar
+import Navbaaaar from '../navbar2/nav';
 
 function Rdv() {
   const { id } = useParams(); // Récupérer l'ID du médecin depuis l'URL
@@ -16,6 +17,10 @@ function Rdv() {
 
   return (
     <>
+    <div className={styles.navbar}>
+          <Navbaaaar />
+        </div> 
+        <div className={styles.content}> 
     <div className={styles.container}>
       <div key={doctor.id} className={styles.doctor}>
         <div className={styles.doctorInfo}>
@@ -41,6 +46,7 @@ function Rdv() {
     <a name="appointment"></a>
       {/* Intégration du composant Calendar avec l'ID du médecin */}
       <Calendar doctorId={doctor.id} />
+    </div>
     </div>
     </>
   );

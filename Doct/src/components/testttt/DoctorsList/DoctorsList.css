@@ -1,0 +1,26 @@
+.doctors-list {
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  .doctors-list h2 {
+    margin-bottom: 20px;
+    color: #34495e;
+  }
+  
+  .doctors-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .doctors-list th,
+  .doctors-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  

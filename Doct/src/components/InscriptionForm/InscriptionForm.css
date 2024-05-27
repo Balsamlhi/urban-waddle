@@ -1,4 +1,7 @@
-
+.nav{
+  position: relative;
+  display: flex;
+}
 
 .my-hash {
     text-align: left;

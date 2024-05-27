@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './sign.module.css';
 import inscri from '../../../assets/inscription.png';
 import axios from 'axios';
+import Navbaaaar from '../../navbar2/nav';
 
 const SignUp = () => {
   const [firstName, setFirstName] = useState('');
@@ -34,17 +35,18 @@ const SignUp = () => {
 
   return (
     <>
+    <Navbaaaar />
       <div>
         <img className={styles.inscri} src={inscri} alt="inscription" />
       </div>
       <form className={styles.form} onSubmit={handleSubmit}>
-        <h3>Sign Up</h3>
+        <h3>S'inscrire</h3>
         <Link to={'/inscrimed'}>
           <span className={styles.mb2}>Êtes-vous un médecin ?</span>
         </Link>
 
         <div className={styles.mb}>
-          <label htmlFor="firstName">First name</label>
+          <label htmlFor="firstName">Nom</label>
           <input
             type="text"
             className={styles.control}
@@ -56,7 +58,7 @@ const SignUp = () => {
         </div>
 
         <div className={styles.mb}>
-          <label htmlFor="lastName">Last name</label>
+          <label htmlFor="lastName">Prenom</label>
           <input
             type="text"
             className={styles.control}
@@ -80,7 +82,7 @@ const SignUp = () => {
         </div>
 
         <div className={styles.mb}>
-          <label htmlFor="password">Password</label>
+          <label htmlFor="password">Mot De Passe</label>
           <input
             type="password"
             className={styles.control}
@@ -93,14 +95,14 @@ const SignUp = () => {
         
         <div className="d-grid">
           <button type="submit" className={styles.btn}>
-            Sign Up
+            S'inscrire
           </button>
         </div>
 
         {error && <p className="error-message">{error}</p>}
 
         <p className="forgot-password text-right">
-          Already registered <Link to={'/login'}>sign in?</Link>
+          Vous avez deja un compte? <Link to={'/login'}>Se Connecter?</Link>
         </p>
       </form>
     </>

@@ -1,10 +1,10 @@
 [
   {
     "id":1,
-    "name": "Dr. Michael Lee",
+    "name": "Dr. Mohsen Aziz Sakka",
     "photo": "../src/assets/doct3.jpg",
-    "description": "Dr. Michael lee specializes in pediatrics and has a gentle approach with children.",
-    "specialty": "Cardiologist",
+    "description": "Dr. Mohsen Aziz Sakka est un generaliste",
+    "specialty": "Generaliste",
     "address": "Sfax Immeuble VINCI, Av. NASRIA; Sfax eljadida",
     "rate": 3,
     "availableTimes": [
@@ -31,10 +31,10 @@
 
     {
       "id":2,
-      "name": "Dr. John Smith",
+      "name": "Dr. Ghedira Lotfi ",
       "photo": "../src/assets/doct1.webp",
-      "description": "Dr. John Smith is a highly experienced cardiologist with over 20 years of practice.",
-      "specialty": "Cardiologist",
+      "description": "Dr. Ghedira Lotfi specialiste en Médecine Generale",
+      "specialty": "Generaliste",
       "address": "Sfax Immeuble VINCI, Av. NASRIA; Sfax eljadida",
       "rate": 5,"availableTimes": [
         {"time": "09:00", "isAvailable": false},
@@ -59,11 +59,11 @@
     },
     {
       "id":3,
-      "name": "Dr. Emily Johnson",
+      "name": "Dr Randa Chaabene",
       "photo": "../src/assets/doct2.jpg",
-      "specialty": "Cardiologist",
+      "specialty": "Ophtalmologiste",
       "address": "Sfax Immeuble VINCI, Av. NASRIA; Sfax eljadida",
-      "description": "Dr. Emily Johnson specializes in pediatrics and has a gentle approach with children.",
+      "description": "Dr Randa Chaabene specialiste en Médecine Esthétique et lasers médicaux",
       "rate": 4,"availableTimes": [
         {"time": "09:00", "isAvailable": false},
         {"time": "09:30", "isAvailable": true},

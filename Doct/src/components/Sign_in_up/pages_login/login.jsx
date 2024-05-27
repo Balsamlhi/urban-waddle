@@ -2,19 +2,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './login.module.css';
 import inscri from '../../../assets/inscription.png'
+import Navbaaaar from '../../navbar2/nav';
 
 const Login = () => {
   return (
     <>
+    <Navbaaaar />
     <div>
       <img className={styles.inscri} src={inscri} />
     </div>
     <form className={styles.form}>
       
-      <h3>Sign In</h3>
+      <h3>Se Connecter</h3>
 
       <div className={styles.mb}>
-        <label htmlFor="email">Email address</label>
+        <label htmlFor="email">Adresse Email</label>
         <input
           type="email"
           className={styles.control}
@@ -25,7 +27,7 @@ const Login = () => {
       </div>
 
       <div className={styles.mb}>
-        <label htmlFor="password">Password</label>
+        <label htmlFor="password">Mot De Passe</label>
         <input
           type="password"
           className={styles.control}
@@ -43,7 +45,7 @@ const Login = () => {
             id="customCheck1"
           />
           <label className="custom-control-label" htmlFor="customCheck1">
-            Remember me
+            Se souvenir de moi
           </label>
         </div>
       </div>
@@ -54,7 +56,7 @@ const Login = () => {
       <div className="d-grid">
         <Link to={'/sign'}>
         <button  className="btn btn-primary">
-          SignUp
+          S'inscrire
         </button>
       </Link>
       </div>
@@ -63,11 +65,11 @@ const Login = () => {
       <br />
       <div className="d-grid">
         <button type="submit" className="btn btn-primary">
-          Submit
+          Soumettre
         </button>
       </div>
       <p className={styles.forgot}>
-        Forgot <a href="#">password?</a>
+         <a href="#">Mot De Passe </a>Oublier
       </p>
       
     </form>

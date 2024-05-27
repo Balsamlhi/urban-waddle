@@ -5,6 +5,7 @@ import DoctorCard from "../doctorCards/DoctorCard";
 import Footer from "../Footer/Footer";
 import { Link } from "react-router-dom";
 import doctorsData from '../../doctors.json'; // Import the doctors data from the JSON file
+import Navbaaaar from "../navbar2/nav";
 
 function Home() {
   // Use the doctors data imported from the JSON file
@@ -12,14 +13,15 @@ function Home() {
 
   return (
     <>
+    <Navbaaaar />
       <div className={styles.map}>
         <Map />
       </div>
       <div className={styles.Content}>
         {doctors.map((doctor, index) => (
-          <Link key={index} to={`/rdv/${doctor.id}`}>
+           <Link key={index} to={`/rdv/${doctor.id}`}>
             <DoctorCard doctor={doctor} />
-          </Link>
+          </Link> 
         ))}
       </div>
       <div className={styles.footer}>

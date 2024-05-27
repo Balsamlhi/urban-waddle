@@ -4,11 +4,15 @@ import doctorWeb from "../../assets/doctorWeb.png";
 import fichierWeb from "../../assets/fichierWeb.png";
 import "./InscriptionForm.css";
 import { FormLabel, Button } from "react-bootstrap";
+import Navbaaaar from "../navbar2/nav";
 
 const InscriptionForm = () => {
   return (
     <div>
-  
+      <div className="nav">
+      <Navbaaaar />
+      </div>
+      
       <div className="my-hash">
         <h2 className="my-h2">Inscription fiche particien</h2>
         <p className="my-p">

@@ -1,0 +1,26 @@
+.patients-list {
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  .patients-list h2 {
+    margin-bottom: 20px;
+    color: #5e4334;
+  }
+  
+  .patients-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .patients-list th,
+  .patients-list td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  

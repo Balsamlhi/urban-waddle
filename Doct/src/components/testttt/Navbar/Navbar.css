@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 1157px; */
+    padding: 10px 20px;
+    /* background-color: #34495e; */
+    background-color: #668eb3;
+    color: #ecf0f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* margin-top: -780px; */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5em;
+  }
+  
+  .navbar-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .navbar-links .profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  

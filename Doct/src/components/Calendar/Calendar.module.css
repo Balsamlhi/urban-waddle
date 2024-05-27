@@ -1,84 +1,103 @@
-/* Calendar container */
+/* Calendar.module.css */
+
 .calendar {
   display: flex;
   flex-wrap: wrap;
-  width: 900px;
-  height: 380px; /* Ajout de la hauteur spécifique */
-  background-color: rgb(186, 186, 186);
-  border: 1px solid rgb(121, 120, 120);
-  border-radius: 5px;
+  gap: 10px;
+  padding: 20px;
+  color: black;
 }
 
-.header {
-  display: flex; /* Utiliser flexbox */
-  align-items: center; /* Aligner les éléments verticalement */
-  justify-content: space-between; /* Répartir les éléments horizontalement */
-  width: 900px; /* Même largeur que le conteneur du calendrier */
-  
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-left: -60px;
-}
-
-
-/* Individual day container */
 .day {
   border: 1px solid #ccc;
+  border-radius: 4px;
   padding: 10px;
-  margin: 5px;
+  text-align: center;
+  width: 100px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-/* Styles for available time slots */
 .available {
-  background-color: #4CAF50;
-  border-radius: 10px;
-  height: 90px;
+  background-color: #d4edda;
+  color: #155724;
 }
 
-/* Styles for unavailable time slots */
+.available:hover {
+  background-color: #c3e6cb;
+}
+
 .unavailable {
-  background-color: #f36262;
-  border-radius: 20px;
-  height: 90px;
+  background-color: #f8d7da;
+  color: #721c24;
 }
 
-/* Modal container */
 .modal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Modal content */
 .modalContent {
-  background-color: rgb(47, 67, 149);
+  background-color: #fff;
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  width: 400px;
+  text-align: center;
+  position: relative;
 }
 
-/* Close button */
 .close {
   position: absolute;
   top: 10px;
   right: 10px;
+  font-size: 20px;
   cursor: pointer;
 }
 
-.close:hover {
-  color: red;
+
+
+/* button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+
+.but1 {
+  background-color: #28a745;
+  color: #fff;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-/* Selected time slot container */
-.selectedTimeSlot {
-  border: 1px solid #999494;
-  padding: 10px;
-  margin-top: 20px;
+.but1:hover {
+  background-color: #218838;
+}
+
+.but2 {
+  background-color: #dc3545;
+  color: #fff;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.but2:hover {
+  background-color: #c82333;
 }
